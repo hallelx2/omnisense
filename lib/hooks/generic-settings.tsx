@@ -37,6 +37,7 @@ export function GenericSettings() {
           <input
             type="text"
             className="w-full p-2 border rounded"
+            placeholder="Enter example setting"
             value={settings?.exampleSetting || ""}
             onChange={(e) =>
               updateSettings({
